@@ -1,5 +1,7 @@
 @charset "utf-8";
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /*
 /*	Copyright (c) 2023 Marketify
 /*	Author: Marketify
@@ -1556,6 +1558,9 @@ body::-webkit-scrollbar-thumb{
 	     -o-transition: all .5s ease;
 	        transition: all .5s ease;
 }
+
+
+
 .elisc_tm_testimonials .owl-theme .owl-dots .owl-dot.active span:before{
 	top: -5px;
 	bottom: -5px;
