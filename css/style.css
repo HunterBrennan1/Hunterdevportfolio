@@ -1837,6 +1837,11 @@ body::-webkit-scrollbar-thumb{
 
 .spotify-plalist{
 	padding-top:100px !important;
+	display:hidden !important;
+}
+
+.embed-widget-container{
+	display: none;
 }
 
 .express_skill{
