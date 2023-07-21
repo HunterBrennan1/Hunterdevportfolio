@@ -326,6 +326,15 @@ body::-webkit-scrollbar-thumb{
 	padding: 0px 20px;
 }
 
+.home{
+	width: 100%;
+	max-width: 1250px;
+	height: auto;
+	clear: both;
+	margin: 0px auto;
+	padding: 0px 0px !important;
+}
+
 /*---------------------------------------------------*/
 /*	02) ELISC MOBILE MENU
 /*---------------------------------------------------*/
