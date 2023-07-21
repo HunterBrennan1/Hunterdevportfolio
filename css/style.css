@@ -37,9 +37,9 @@ ul{
 }
 :root{
     --main-color: #55527C;
-    --dark-color: #130F49;
+    --dark-color: #000;
     --yellow-color: #FF972D;
-    --blue-color: #A5A6FF;
+    --blue-color: #38b9bb;
     --font-inter: 'Inter', sans-serif;
     --font-karla: 'Karla', sans-serif;
     --font-kristi: 'Kristi', cursive;
@@ -641,17 +641,23 @@ body::-webkit-scrollbar-thumb{
 	width: 100%;
 	min-height: 100vh;
 	clear: both;
-	float: left;
-	background-color: #EFFBF8;
+	float: right;
+	background-image: url(../img/logo/portfoliobackgroudimg.png);
 }
 .elisc_tm_home .details{
 	width: 100%;
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
+	justify-content: right !important;
+	opacity: 1 !important;
 }
 .elisc_tm_home .details .left{
-	width: 50%;
+	width: 80%;
+	/* background-color: #edede6; */
+	padding:25px;
+	border-radius: 20px;
+	/* opacity: 0.5; */
 }
 .elisc_tm_home .title{
 	width: 100%;
@@ -686,9 +692,9 @@ body::-webkit-scrollbar-thumb{
 }
 .elisc_tm_button a{
 	color: #fff;
-	background-color: #130F49;
+	background-color: #f74356;
 	display: inline-block;
-	border: 1.5px solid #130F49;
+	border: 1.5px solid ##f74356;
 	border-radius: 4px;
 	padding: 9px 40px 9px 40px;
 	white-space: nowrap;
@@ -700,15 +706,15 @@ body::-webkit-scrollbar-thumb{
 	        transition: all .3s ease;
 }
 .elisc_tm_button a:hover{
-	background-color: transparent;
-	color: #55527c;
+	background-color: #f74356;
+	color: #fff;
 }
 .elisc_tm_button[data-style="border"] a{
-	background-color: transparent;
+	background-color: #fff;
 	color: #55527c;
 }
 .elisc_tm_button[data-style="border"] a:hover{
-	background-color: #130F49;
+	background-color: #f74356;
 	color: #fff;
 }
 .elisc_tm_button[data-position="center"]{
