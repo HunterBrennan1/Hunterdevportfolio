@@ -333,6 +333,16 @@ body::-webkit-scrollbar-thumb{
 	clear: both;
 	margin: 0px auto;
 	padding: 0px 0px !important;
+
+
+}
+
+.hero_text{
+	background-color:white;
+	padding:10px;
+	padding-left:15px;
+	border-radius: 5px;
+
 }
 
 /*---------------------------------------------------*/
