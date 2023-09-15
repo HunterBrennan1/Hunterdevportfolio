@@ -661,7 +661,7 @@ body::-webkit-scrollbar-thumb{
 	min-height: 100vh;
 	clear: both;
 	float: right;
-	background-image: url(../img/logo/portfoliobackgroudimg.png);
+	
 }
 .elisc_tm_home .details{
 	width: 100%;
@@ -713,7 +713,7 @@ body::-webkit-scrollbar-thumb{
 	color: #fff;
 	background-color: #f74356;
 	display: inline-block;
-	border: 1.5px solid ##f74356;
+	border: 1.5px solid #f74356;
 	border-radius: 4px;
 	padding: 9px 40px 9px 40px;
 	white-space: nowrap;
