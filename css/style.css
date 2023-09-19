@@ -1856,8 +1856,9 @@ body::-webkit-scrollbar-thumb{
 }
 
 .resume{
-	width:80%;
 	height:100%;
+	margin-top:30px;
+	margin-bottom:30px;
 }
 
 .spotify-plalist{
