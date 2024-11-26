@@ -337,6 +337,25 @@ body::-webkit-scrollbar-thumb{
 
 }
 
+.libutton {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 7px;
+	text-align: center;
+	outline: none;
+	text-decoration: none !important;
+	color: #0A66C2 !important;
+	width: 200px;
+	height: 32px;
+	border-radius: 16px;
+	border-color: #0A66C2;
+	border-width: 2px;
+	border-style: solid;
+	background-color:#ffff ;
+	font-family: "SF Pro Text", Helvetica, sans-serif;
+}
+
 .hero_text{
 	background-color:white;
 	padding:10px;
